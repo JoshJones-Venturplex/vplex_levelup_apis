@@ -1,0 +1,7 @@
+{
+  "smoothie": [
+    { "id": 1, "flavor": "taro", "mixin": "boba", "calories": "400", "size": "large" },
+    { "id": 2, "flavor": "strawberry", "mixin": "none", "calories": "200", "size": "medium" },
+    { "id": 3, "flavor": "vanilla", "mixin": "protein powder", "calories": "200", "size": "small" }
+  ]
+}

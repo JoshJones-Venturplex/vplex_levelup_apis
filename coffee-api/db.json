@@ -1,0 +1,7 @@
+{
+  "coffee": [
+    { "id": 0, "flavor": "vanilla", "type": "latte", "style": "hot", "size": "venti" },
+    { "id": 1, "flavor": "caramel", "type": "macchiato", "style": "iced", "size": "grande" },
+    { "id": 2, "flavor": "", "type": "espresso", "style": "hot", "size": "tall" }
+  ]
+}

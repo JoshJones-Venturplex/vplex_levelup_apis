@@ -1,0 +1,10 @@
+{
+  "version": "0.0.0",
+  "name": "smoothie-api",
+  "scripts": {
+    "start": "json-server --watch db.json -p 3000 -d 2000"
+  },
+  "dependencies": {
+    "json-server": "latest"
+  }
+}

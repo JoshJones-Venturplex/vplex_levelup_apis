@@ -1,0 +1,6 @@
+{
+  "pcparts": [
+    { "id": 1, "name": "RTX 2080", "type": "graphics card", "release_year": "2018" },
+    { "id": 2, "name": "Intel i7 97000k", "type": "cpu", "release_year": "2018" }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "items": [
+    { "id": 1, 
+      "name": "Redbull", 
+      "type": "Food/Drink",
+      "status": "Stocked"
+    },
+    { "id": 2, 
+      "name": "Bang", 
+      "type": "Food/Drink",
+      "status": "Low"
+    },
+    { "id": 3, 
+      "name": "Toilet Paper", 
+      "type": "Supplies",
+      "status": "None Available"
+    },
+    { "id": 4, 
+      "name": "Markers", 
+      "type": "Supplies",
+      "status": "Stocked"
+    }
+  ]
+}

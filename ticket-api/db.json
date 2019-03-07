@@ -1,0 +1,8 @@
+{
+  "tickets": [
+    { "id": 1, "name": "Make Coffee", "description": "Brew a cup of coffee", "status": "done" },
+    { "id": 2, "name": "Make More Coffee", "description": "Brew many cups of coffee", "status": "done" },
+    { "id": 3, "name": "Buy Redbull", "description": "Buy a can of Redbull", "status": "done" },
+    { "id": 4, "name": "Buy More Redbull", "description": "Buy many cans of Redbull", "status": "done" }
+  ]
+}
