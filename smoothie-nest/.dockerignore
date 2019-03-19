@@ -3,3 +3,6 @@
 !yarn.lock
 !pages
 !package.json
+!package-lock.json
+!tsconfig.json
+!wait-for-it.sh
