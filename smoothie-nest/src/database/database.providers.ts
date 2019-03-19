@@ -8,10 +8,10 @@ export const databaseProviders = [
       const sequelize = new Sequelize({
         operatorsAliases: false,
         dialect: 'mysql',
-        url: 'mysql://b26470ab6bb766:bdf032bb@us-cdbr-iron-east-03.cleardb.net/heroku_53650379357ac1e?reconnect=true',
-        username: 'b26470ab6bb766',
-        password: 'bdf032bb',
-        database: 'heroku_53650379357ac1e'
+        url: process.env.DATABASE_URL,
+        username: process.env.DATABASE_USER,
+        password: process.env.DATABASE_PASSWORD,
+        database: process.env.DATABASE_NAME
       });
       sequelize.addModels([Smoothie]);
       await sequelize.sync();

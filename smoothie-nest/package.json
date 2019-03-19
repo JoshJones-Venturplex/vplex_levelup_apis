@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\"",
-    "start": "ts-node src/main.ts",
+    "start": "ts-node -r dotenv/config src/main.ts",
     "start:dev": "nodemon",
     "start:debug": "nodemon --config nodemon-debug.json",
     "prestart:prod": "rimraf dist && npm run build",
@@ -23,6 +23,7 @@
     "@nestjs/common": "^5.4.0",
     "@nestjs/core": "^5.4.0",
     "@types/sequelize": "^4.27.39",
+    "dotenv": "^7.0.0",
     "mysql2": "^1.6.5",
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
